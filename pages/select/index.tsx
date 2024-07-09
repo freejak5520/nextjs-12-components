@@ -4,7 +4,7 @@ import Select from "./components";
 export default function SelectComponentPage() {
   const [first, setFirst] = useState("None");
 
-  return <main className="max-w-screen-md mx-auto p-4">
+  return <main className="main">
     <div className="flex flex-col gap-6">
       <h1 className="h1">Select</h1>
       <div className="flex flex-col gap-4">
