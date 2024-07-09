@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vite, React, TailwindCSS Components
 
-## Getting Started
+## To-dos
 
-First, run the development server:
+- [ ] Infinite Scroll
+- [ ] Custom Radio
+- [ ] 모바일 대응
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Horizontal Scroll
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 가로 스크롤이 가능한 컴포넌트
+- 모바일에서 터치로 스크롤
+- 데스크탑에서 스크롤 UX 개선
+  - 클릭으로 드래그 또는 좌우 화살표 클릭으로 스크롤
+- 재 사용 가능한 컴포넌트
+- 좌우 무한 스크롤
+  - 좌/우 양 방향으로 무한 스크롤
+  - 무한 스크롤 시 스크롤바를 숨겨야함
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Infinite Scroll
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- 무한 스크롤이 가능한 컴포넌트
+- 초기 로딩 URL 또는 데이터 목록
+- 스크롤 시 추가 데이터 로딩
+- 특정 스크롤 위치 도달 시 추가 데이터 로딩(요소의 높이에 따라 자연스러운 위치 계산)
+- 재 사용 가능한 컴포넌트
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Select
 
-## Learn More
+- UI 커스텀이 가능한 셀렉트 컴포넌트
+- 기본 셀렉트 컴포넌트와 동일한 기능
+- 셀렉트 박스 열기/닫기
+- 영역 외 클릭 시 셀렉트 박스 닫기
+- 열기/닫기, 항목 선택, 변경 등 이벤트 구현
+- 재 사용 가능한 컴포넌트
 
-To learn more about Next.js, take a look at the following resources:
+## Custom Radio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 디자인 가능한 버튼 컴포넌트를 활용한 라디오 컴포넌트
+- 기본 라디오 컴포넌트와 동일한 기능
+- 라디오 버튼 내 컴포넌트로 UI 커스텀 가능
+- 라디오 버튼 선택 시 이벤트 구현
+- 라디오 버튼 선택 시 UI 변경
+- 재 사용 가능한 컴포넌트
